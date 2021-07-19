@@ -15,9 +15,9 @@
     </properties>
 
     <modules>
-        <module>DCP</module>
         <module>Algorithms</module>
         <module>LeetCode</module>
+        <module>DailyCodingProblems</module>
     </modules>
 
     <dependencies>
