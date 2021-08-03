@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DailyCodingProblems" />
+        <module name="General" />
         <module name="Algorithms" />
         <module name="LeetCode" />
       </profile>

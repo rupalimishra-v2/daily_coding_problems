@@ -1,8 +1,8 @@
-package sorting;
+package Sorting;
 
 import java.util.Arrays;
 
-public class mergeSort {
+public class MergeSort {
     public String mergeSort(int[] array) {
         return Arrays.toString(sort(array, 0, array.length - 1));
     }
@@ -58,6 +58,6 @@ public class mergeSort {
 
     public static void main(String[] args) {
         int[] input = {2,4,7,1,3,0,-4};
-        System.out.println(new mergeSort().mergeSort(input));
+        System.out.println(new MergeSort().mergeSort(input));
     }
 }

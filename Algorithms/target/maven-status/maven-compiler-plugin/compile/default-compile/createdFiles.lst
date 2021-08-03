@@ -1,3 +1,10 @@
-sorting/selectionSort.class
-sorting/insertionSort.class
-sorting/mergeSort.class
+sorting/SelectionSort.class
+LinkedList/NodeInsertion$Node.class
+Searching/BinarySearch.class
+sorting/MergeSort.class
+LinkedList/NodeInsertion.class
+Searching/SublistSearch$Node.class
+Searching/SublistSearch.class
+Searching/LinearSearch.class
+Searching/JumpSearch.class
+sorting/InsertionSort.class

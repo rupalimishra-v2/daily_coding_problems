@@ -1,8 +1,8 @@
-package sorting;
+package Sorting;
 
 import java.util.Arrays;
 
-public class selectionSort {
+public class SelectionSort {
     public String selection(int[] array) {
         int size = array.length;
 
@@ -25,6 +25,6 @@ public class selectionSort {
 
     public static void main(String[] args) {
         int[] input = {2,4,7,1,3,0,-4};
-        System.out.println(new selectionSort().selection(input));
+        System.out.println(new SelectionSort().selection(input));
     }
 }

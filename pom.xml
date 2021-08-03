@@ -18,6 +18,7 @@
         <module>Algorithms</module>
         <module>LeetCode</module>
         <module>DailyCodingProblems</module>
+        <module>General</module>
     </modules>
 
     <dependencies>

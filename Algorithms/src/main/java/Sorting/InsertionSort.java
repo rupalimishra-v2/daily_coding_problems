@@ -1,14 +1,14 @@
-package sorting;
+package Sorting;
 
 import java.util.Arrays;
 
-public class insertionSort {
+public class InsertionSort {
     // The insertion sort is equivalent to sorting of play cards in 1 hand
     // compare each element with the elements in the left , swap if satisfy
     // [2,4,7,1,3,0,-4]
     public String insertion(int[] array) {
 
-        for(int i = 1;i< array.length; i++){
+        for(int i = 1;i< array.length; i++) {
             int key = array[i];
             int j = i-1;
             while(j>=0 && array[j] > key){
@@ -24,6 +24,6 @@ public class insertionSort {
 
     public static void main(String[] args) throws Exception {
         int[] input = {2,4,7,1,3,0,-4};
-        System.out.println(new insertionSort().insertion(input));
+        System.out.println(new InsertionSort().insertion(input));
     }
 }
