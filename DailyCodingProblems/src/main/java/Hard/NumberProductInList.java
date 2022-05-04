@@ -17,13 +17,13 @@ public class NumberProductInList {
     public int[] numberProduct(int[] input) {
         List<Integer> result = new ArrayList<>();
         for(int i = 0; i < input.length; i++) {
-            int sum = 1;
+            int product = 1;
             for(int j = 0; j < input.length; j++) {
                 if(j!=i){
-                    sum = sum * input[j];
+                    product = product * input[j];
                 }
             }
-            result.add(sum);
+            result.add(product);
         }
         return result.stream().mapToInt(a->a).toArray();
     }
